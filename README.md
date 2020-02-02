@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-rodar">Como rodar</a>
+  <a href="#computer-como-rodar">Como rodar</a>
 </p>
 
 ## :rocket: Sobre o desafio
