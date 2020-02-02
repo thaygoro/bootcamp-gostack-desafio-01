@@ -7,19 +7,8 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-01?color=%2304D361">
-
-  <a href="https://github.com/thaygoro">
-    <img alt="Made by Tháygoro" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
-  
-</p>
-
-<p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-rodar">Como rodar</a>
 </p>
 
 ## :rocket: Sobre o desafio
@@ -77,3 +66,7 @@ node index.js
 ```
 
 Após isso utilize as rotas descritas acima para testar a aplicação.
+
+##
+
+:rocket Feito pelo [**Tháygoro**](https://github.com/thaygoro) :rocket
