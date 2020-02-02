@@ -68,7 +68,7 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 Softwares/pacotes auxiliares *(não são necessários, mas facilitam a execução)*:
 * [Insomnia](https://insomnia.rest/download/): para testar requisições REST;
 
-Se você possuí [yarn]() na sua máquina, execute o seguinte código:
+Se você possuí [yarn](https://yarnpkg.com/) na sua máquina, execute o seguinte código:
 ```shell
 yarn dev
 ```
