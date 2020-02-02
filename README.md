@@ -48,7 +48,7 @@ A rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `
 
 - Middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
 
-## Como rodar
+## :computer: Como rodar
 
 Softwares auxiliares *(não são necessários, mas facilitam a execução)*:
 * [Insomnia](https://insomnia.rest/download/): para testar requisições REST;
@@ -69,4 +69,4 @@ Após isso utilize as rotas descritas acima para testar a aplicação.
 
 ##
 
-:rocket Feito pelo [**Tháygoro**](https://github.com/thaygoro) :rocket
+:rocket: Feito pelo [**Tháygoro**](https://github.com/thaygoro) :rocket:
