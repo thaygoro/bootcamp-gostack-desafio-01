@@ -8,8 +8,8 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Tháygoro M.L.",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },

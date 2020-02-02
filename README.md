@@ -9,21 +9,17 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-01?color=%2304D361">
 
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
+  <a href="https://github.com/thaygoro">
+    <img alt="Made by Tháygoro" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
-
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-01/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-desafio-01?style=social">
-  </a>
+  
 </p>
 
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Sobre o desafio
@@ -45,7 +41,7 @@ Criar uma aplicação para armazenar projetos e suas tarefas do zero utilizando 
 
 ### Exemplo
 
-Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `POST /projects/1/tasks` com `{ title: 'Nova tarefa' }`, meu array de projetos deve ficar assim:
+A rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `POST /projects/1/tasks` com `{ title: 'Nova tarefa' }`, deve retornar o seguinte:
 
 ```js
 [
@@ -59,27 +55,25 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 
 ### Middlewares
 
-- Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
+- Middleware utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorna um erro, caso contrário permite a requisição continuar normalmente;
 
-- Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+- Middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
 
 ## Como rodar
 
-Softwares/pacotes auxiliares *(não são necessários, mas facilitam a execução)*:
+Softwares auxiliares *(não são necessários, mas facilitam a execução)*:
 * [Insomnia](https://insomnia.rest/download/): para testar requisições REST;
 
-Se você possuí [yarn](https://yarnpkg.com/) na sua máquina, execute o seguinte código:
+Se você possuí [yarn](https://legacy.yarnpkg.com/lang/en/) na sua máquina, execute o seguinte código:
 ```shell
+yarn
 yarn dev
 ```
 
 Se não, execute:
 ```shell
+npm install
 node index.js
 ```
 
 Após isso utilize as rotas descritas acima para testar a aplicação.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
