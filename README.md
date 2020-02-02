@@ -22,14 +22,14 @@
 
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-rodar">Como rodar</a>
+  <a href="#como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :rocket: Sobre o desafio
 
 Criar uma aplicação para armazenar projetos e suas tarefas do zero utilizando [Express](https://expressjs.com/pt-br/).
--> [Link para o desafio da Rocketseat](https://github.com/Rocketseat/bootcamp-gostack-desafio-01) <-
+<br> -> [Link para o desafio da Rocketseat](https://github.com/Rocketseat/bootcamp-gostack-desafio-01) <-
 
 ### Rotas
 
